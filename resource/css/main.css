@@ -1,0 +1,229 @@
+body {
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+header {
+   font-family:  monospace;
+}
+.nav {
+    border-bottom: 3px double #333;
+}
+.fixed-nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #333;
+    z-index: 9999;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline;
+}
+.menu-button {
+  font-family: Courier New;
+  color: #333;
+  font-size: 16px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-bottom: none;
+  cursor: pointer;
+}
+#menu-button-red:hover {
+  border-top: 2px solid #990000;
+}
+#menu-button-green:hover {
+  border-top: 2px solid #006633;
+}
+#menu-button-blue:hover {
+  border-top: 2px solid #339999;
+}
+#menu-button-orange:hover {
+  border-top: 2px solid #CC3300;
+}
+#dropdown-button-green:hover {
+  border-left: 2px solid #006633;
+}
+#dropdown-button-blue:hover {
+  border-left: 2px solid #339999;
+}
+#dropdown-button-red:hover {
+  border-left: 2px solid #990000;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+}
+.iframe-sample {
+    height: 525px;
+    width:  100%;
+    border-bottom: 3px double #333;
+}
+a {
+    color: #000000;
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+a:hover {
+    text-decoration: line-through;
+    color: #000000;
+}
+article {
+  margin-left: 50px;
+  text-align: left;
+}
+p {
+  font-family: times, serif;
+  font-size: 18px;
+}
+.linkedin-profile {
+    width: 100%;
+}
+.footer {
+    font-size: 10px;
+}
+footer {
+    margin-top: 60px;
+    border-top: 3px double #333;
+}
+
+
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  border-bottom: 3px double #000000;
+}
+.navbar-default .navbar-brand {
+  color: #333;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #333;
+  text-decoration: line-through;
+}
+.navbar-default .navbar-text {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #000000;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #000000;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  border-right: 1px solid #333;
+  border-radius: 0px;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #000000;
+}
+.navbar-default .navbar-link {
+  color: #000000;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
+
+#icon-bar-blue {
+    background-color: #339999;
+}
+#icon-bar-green {
+    background-color: #006633;
+}
+#icon-bar-red {
+    background-color: #990000;
+}
+#icon-bar-orange {
+    background-color: #CC3300;
+}
+
+
+#responsive-article-home {
+    background-image: url("http://photo.foter.com/photos/m/36/wave-7.jpg");
+    background-color: #222;
+    background-size: cover;
+}
+#responsive-article-about {
+    background-image: url("http://photo.foter.com/photos/m/57/waves-22.jpg");
+    background-color: #222;
+    background-size: cover;
+}
+#responsive-article-work {
+    background-image: url("http://photo.foter.com/photos/m/17/awesome-wave.jpg");
+    background-color: #222;
+    background-size: cover;
+}
+#responsive-article-blog {
+    background-image: url("http://photo.foter.com/photos/m/25/living-waves.jpg");
+    background-color: #222;
+    background-size: cover;
+}
+.responsive-section {
+    height: 350px;
+    position: relative;
+    background: none;
+    padding-top: 20px;
+}
+.responsive-row {
+    height: 14%;
+    background: none;
+}
+.responsive-column {
+    height: 100%;
+    background: none;
+}
+.responsive-box {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: static;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 40%;
+    min-width: 40%;
+}
