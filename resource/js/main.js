@@ -1,5 +1,5 @@
 function fix_nav_position() {
-  var header_height = document.getElementsByTagName("header")[0].offsetHeight + 70;
+  var header_height = document.getElementsByTagName("header")[0].offsetHeight + 200;
   if (window.pageYOffset > header_height){
       document.getElementsByTagName("nav")[0].classList.add("fixed-nav");
       document.getElementsByClassName("navbar-header")[0].innerHTML = '<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar" id="icon-bar-blue"></span><span class="icon-bar" id="icon-bar-green"></span><span class="icon-bar" id="icon-bar-red"></span><span class="icon-bar" id="icon-bar-orange"></span></button><a class="navbar-brand" href="index.html">life as lain</a>';
