@@ -1,3 +1,4 @@
+
 function fix_nav_position() {
   var header_height = document.getElementsByTagName("header")[0].offsetHeight + 200;
   if (window.pageYOffset > header_height){
@@ -12,10 +13,10 @@ function fix_nav_position() {
 
 Element.prototype.shrink = function(factor) {
     var box = this.getBoundingClientRect();
-    console.log((box.left+factor)+ ' ' + (box.top+factor));
+
     this.style.width = Math.round(box.width - factor) + 'px';
     this.style.height = Math.round(box.height - factor) + 'px';
-    console.log(this.style.left + ' ' + this.style.top);
+
     //this.move(factor);
 };
 Element.prototype.move = function(factor) {
@@ -49,7 +50,7 @@ function shrink_responsive_box() {
         new_distance[i] = Math.sqrt(Math.pow((mouse_coor[0]-box_coor[0]),2)+Math.pow((mouse_coor[1]-box_coor[1]),2));
         delta_distance = (old_distance[i] - new_distance[i]) / 2;
         factor = delta_distance / Math.sqrt(2);
-        console.log(old_distance[i]);
+
         box[i].shrink(factor);
         old_distance[i] = new_distance[i];
     }
