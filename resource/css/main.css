@@ -8,6 +8,20 @@ body {
 header {
    font-family:  monospace;
 }
+form {
+  font-size: 18px;
+  font-family: monospace;
+}
+input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+input[type="text"]:focus {
+  outline: none;
+}
 .nav {
     border-bottom: 3px double #333;
 }
