@@ -24,16 +24,15 @@ input[type="text"]:focus {
 }
 input[type="submit"] {
   font-family: Courier New;
-  color: #333;
+  color: #9BCD9B;
   font-size: 16px;
   font-weight: bold;
   background: #ffffff;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 10px 5px 10px;
   text-decoration: none;
-  border: 2px solid #000000;
-  border-bottom: none;
+  border: 2px solid #9BCD9B;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 10px
 }
 .nav {
     border-bottom: 3px double #333;
@@ -61,9 +60,10 @@ input[type="submit"] {
   font-size: 16px;
   font-weight: bold;
   background: #ffffff;
-  padding: 5px 10px 5px 10px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
   border: 2px solid #ffffff;
+  border-bottom: none;
   cursor: pointer;
 }
 #menu-button-red:hover {
