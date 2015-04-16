@@ -29,5 +29,5 @@
   <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 <body>
-<form action="binary_arithmetic.php"> <input type="submit" value="Try Again"></form>
+<form action="binary_arithmetic.php"><input type="submit" value="Try Again"></form>
 </body>

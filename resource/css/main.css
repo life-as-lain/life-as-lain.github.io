@@ -30,9 +30,10 @@ input[type="submit"] {
   background: #ffffff;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  border: 2px solid #ffffff;
+  border: 2px solid #000000;
   border-bottom: none;
   cursor: pointer;
+  margin-left: 10px;
 }
 .nav {
     border-bottom: 3px double #333;
