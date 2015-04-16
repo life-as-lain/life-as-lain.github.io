@@ -64,7 +64,6 @@ input[type="submit"] {
   padding: 5px 10px 5px 10px;
   text-decoration: none;
   border: 2px solid #ffffff;
-  border-bottom: none;
   cursor: pointer;
 }
 #menu-button-red:hover {
