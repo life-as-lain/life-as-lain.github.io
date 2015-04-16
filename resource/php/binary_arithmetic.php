@@ -21,5 +21,5 @@
   <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 <body>
-<form method="post" action="binary_ar_handler.php"> <?php echo $_SESSION["bin1"] . "+". $_SESSION["bin2"];?> = <input type="text" name="answer"><input name="sumbit" type="submit" value="Submit"></form>
+<form method="post" action="binary_ar_handler.php"> <?php echo $_SESSION["bin1"] . "+". $_SESSION["bin2"];?> = <input type="text" autocomplete="off" name="answer"><input name="sumbit" type="submit" value="Submit"></form>
 </body>

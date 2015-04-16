@@ -24,13 +24,13 @@ input[type="text"]:focus {
 }
 input[type="submit"] {
   font-family: Courier New;
-  color: #9BCD9B;
+  color: #2F4F2F;
   font-size: 16px;
   font-weight: bold;
   background: #ffffff;
   padding: 5px 10px 5px 10px;
   text-decoration: none;
-  border: 2px solid #9BCD9B;
+  border: 2px solid #2F4F2F;
   cursor: pointer;
   margin-left: 10px
 }
