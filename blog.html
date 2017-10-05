@@ -148,6 +148,28 @@
         <article>
             <h2 class="centered sansSerif">Blog</h2>
             <div>
+                <p><b>5 October, 2017</b></b></p>
+                <p>The Case Against Environment Duality</p>
+                
+                <p>We are using a local tomcat server for local deployment and testing, but deploying to a private cloud for integration testing with the intention of deploying to product environment that is going to be in a public cloud. </p>
+
+                <p>[Insert Cloud PaaS] gives us a lot for free, in that it abstracts away the infrastructure and slots in as a PaaS. This platform combined with Spring cloud tools including Spring Boot and Spring Cloud, gives us a flexible application that doesn't care whether it is running on any cloud infrastructure connected to any data source (cloud enabled or not).</p>
+
+                <p>When writing code locally, the developer has to always build with the cloud in mind, striving for a 12 factor application. Cutting corners in this area is detrimental to the project. </p>
+
+                <p>Lets consider the opening statement: "We are using a local tomcat server for local deployment and testing". Although the build that is being used in [Insert Cloud PaaS] is a tomcat deployment, a local tomcat installation does not get the configuration tools that are made available explicitly through [Insert Cloud PaaS]. Now, nothing is stopping a  developer from writing some tools to emulate that of [Insert Cloud PaaS], and one could argue that this will suffice. That is a problem. It means that whenever [Insert Cloud PaaS] pushes out some new feature or a patch, this emulation needs to be updated as well. This creates extra work and stress on developers and engineers (isn't the cloud supposed to take away stress on development and operations?).</p>
+
+                <p>This solution is lightweight and creative, it saves time in the initial set up of a local environment, but it could cause countless headaches down the road, as developers need to write code that will work in two completely different environments.</p>
+
+                <p>...Enter corners being cut, configuration hell, and slowed down project time line. </p>
+
+                <p>What to do about this? What everyone else does. If there is any chance that this application will be deployed on virtual machine (**cough** **cough** cloud), then it should always always always run in one. From local development, to integration, to manual testing, to regression testing, to deployment and release, never knowing the life of running on a physical machine. To take that a step further, if you are using [Insert Cloud PaaS] then it should always always always run in [Insert Cloud PaaS].</p>
+
+                <p>There are countless solutions out there that fit the needs of these cloud PaaS's: VMWare, VirtualBox, Vagrant, Docker, the list goes on. It is one small gain in the beginning when setting up the environment, but will ultimately slow the project down--and if it becomes common practice, every project that comes after it.</p>
+
+
+            </div>
+            <div>
                 <p><b>9 March, 2016</b></b></p>
                 <p>Hardly-Disclosed Privacy Policies and Understanding Risk</p>
 
